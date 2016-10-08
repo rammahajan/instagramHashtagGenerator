@@ -1,5 +1,14 @@
 {
   "generators": {
-    "modules": {}
+    "modules": {
+      "gulp": "sails-generate-gulp",
+      "new": "sails-generate-new-gulp",
+      "frontend": "sails-generate-frontend-gulp",
+      "backend": "sails-generate-backend-gulp",
+      "gulpfile": "sails-generate-gulpfile"
+    }
+  },
+  "hooks": {
+    "grunt": false
   }
 }
