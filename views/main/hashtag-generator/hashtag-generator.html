@@ -9,11 +9,14 @@
 
 <body>
   <div>
-    <label for="caption" id="caption-label"></label><br>
-    <textarea id="caption" name="caption"></textarea><br>
+    <h1>Instagram Hashtag Generator</h1><br>
+    <textarea id="caption" name="caption" placeholder="Please enter your caption with full-stop and then type keywords with one space.
+e.g. This is bliss. India Himalaya Uttarakhand " ></textarea><br>
+    
     <button type="button" value="Generate" 
     onclick="captionkeywordsgenerator(document.getElementById('caption').value)">Generate</button><br>
-    <label name="generatedCaption" value="generatedCaption" id="generatedCaption"></label>
+    
+    <label name="generatedCaption" id="generatedCaption" hidden="true" ></label>
   </div>
 </body>
 

@@ -3,19 +3,28 @@ body{
 
 }
 label{
-  background-color: white;
-  color: lightslategrey;
+  background-color: transparent;
+  border: solid;
+  width:  500px;
+  color: black;
+  padding: 2px;
 }
-text-area {
+textarea {
   width: 500px;
   height: 60px;
   border: solid;
+  border-width: medium;
   
 }
 button{
   border: solid;
+  border-width: medium;
   width: 100px;
   height:50px;
   border-radius: 10px;
-  text-align: center
+  text-align: center;
+  margin-bottom: 20px;
+  
 }
+
+
