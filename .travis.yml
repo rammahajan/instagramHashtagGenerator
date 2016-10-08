@@ -3,6 +3,5 @@ node_js:
   - "4.2.4"
 deploy:
   provider: heroku
-  api_key: 
-  secure: 0f17d3ab-5fb1-413a-b88a-a63abd46d9d0
+  api_key: "0f17d3ab-5fb1-413a-b88a-a63abd46d9d0"
   app: instagram-hashtag-generator
