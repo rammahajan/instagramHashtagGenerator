@@ -22,6 +22,8 @@
 
 module.exports.routes = {
 
- 'GET /': 'HomeController.get'
+ 'GET /': 'HomeController.get',
+ 'GET /keywords': 'HashtagController.findkeywords',
+ 'POST /keywords': 'HashtagController.insertkeywords'
 
 };

@@ -8,8 +8,7 @@
 module.exports = {
 
   attributes: {
-    
+    keyword: 'STRING'
 
   }
 };
-

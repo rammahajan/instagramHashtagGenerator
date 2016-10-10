@@ -3,6 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "description": "a Sails application",
+  "engines": {
+    "node": "4.2.4"
+  },
   "keywords": [],
   "dependencies": {
     "eslint": "^3.7.1",
@@ -15,7 +18,19 @@
     "sails": "~0.12.7",
     "sails-disk": "~0.10.9",
     "sails-hook-gulp": "0.0.1",
-    "sails-mongo": "^0.12.1"
+    "sails-mongo": "^0.12.1",
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.0",
+    "gulp-if": "^1.2.5",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "^2.0.1",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.5",
+    "gulp-concat": "^2.6.0",
+    "browser-sync": "^2.7.1",
+    "browserify": "^9.0.8"
   },
   "scripts": {
     "debug": "node debug app.js",
@@ -29,17 +44,6 @@
   "author": "rammahajan1",
   "license": "",
   "devDependencies": {
-    "del": "^1.2.0",
-    "gulp": "^3.9.0",
-    "gulp-autoprefixer": "^2.3.0",
-    "gulp-if": "^1.2.5",
-    "gulp-load-plugins": "^0.10.0",
-    "gulp-plumber": "^1.0.1",
-    "gulp-sass": "^2.0.1",
-    "gulp-uglify": "^1.2.0",
-    "gulp-util": "^3.0.5",
-    "gulp-concat": "^2.6.0",
-    "browser-sync": "^2.7.1",
-    "browserify": "^9.0.8"
+    
   }
 }
